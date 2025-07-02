@@ -1,0 +1,175 @@
+.section-hero {
+    height: 100vh;
+    padding: 80px 20px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: 10;
+  }
+  
+  .hero-content {
+    max-width: 1000px;
+    width: 100%;
+    z-index: 20 !important;
+  }
+  
+  .intro {
+    font-size: 16px;
+    font-weight: 500;
+    color: #ECF4BD;
+    margin-bottom: -2rem;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Inter", sans-serif;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+    font-family: "Sora", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 81px;
+    text-align: center;
+    color: #FFFFFF;
+    
+  }
+  
+  .hero-title .blue {
+    color: #11DEFF;
+  }
+  
+  .hero-title .purple {
+    color: #4380FF;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    color: #b3ffcc;
+    margin-top: -2rem;
+    font-family: "Sora", sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #BDF4D0;
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  .description {
+    max-width: 700px;
+    margin: 3rem auto;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: #FFFFFF;
+
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: center;
+    gap: 4.5rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    text-align: -webkit-center;
+
+  }
+  
+  .stats div h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    width: 97px;
+    height: 51px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 160%;
+    background: linear-gradient(90deg, #3C6BFE 0%, #9D84F2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .stats div p {
+    margin: 0.1rem 0 0;
+    width: 118px;
+    height: 22px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #FFFFFF;
+  }
+  
+  .logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 3rem;
+    opacity: 0.7;
+  }
+  
+  .logos img {
+    width: 149.1px;
+    height: 72px;
+    object-fit: contain;
+    border-radius: 3.82301px;
+    margin-top: -10px;
+  
+    transition: 
+      transform 0.1s cubic-bezier(0.4, 0, 0.2, 1),
+      box-shadow 0.41s ease,
+      filter 0.1s ease;
+    will-change: transform, box-shadow, filter;
+  }
+  
+  .logos img:hover {
+    transform: scale(1.08) translateY(-4px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+    filter: brightness(1.05) contrast(1.1) saturate(1.2);
+    cursor: pointer;
+  }
+  
+
+  .logos .Masterstudy-logo{
+    margin-top: 2.5px;
+    }
+  .sec0-1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    z-index: -1;
+    mix-blend-mode: plus-lighter;
+    opacity: 0.6;
+    filter: blur(60px);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  
+  /* Triangle */
+
+/* width: 191px;
+height: 191px;
+left: 146px;
+top: 245px;
+filter: blur(20px); */

@@ -1,0 +1,109 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /* height: 100%; */
+  /* overflow-x: hidden; */
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+
+.main {
+  position: relative;
+  z-index: 10;
+}
+
+.section {
+  height: 100vh;
+  /* width: 100%; */
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+  text-align: center;
+  /* padding: 0 20px; */
+  z-index: 10;
+  background: transparent;
+}
+
+.content h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.content .tagline,
+.content .description {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+.content .brand {
+  margin-top: 2rem;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+.highlight {
+  color: #00ffcc; /* or any accent color */
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+  background-color: #000; /* fallback */
+}
+
+.gradient-overlay {
+  mix-blend-mode: overlay; 
+}
+
+.mainball{
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  left: 1110px;
+  top: 0px;
+  flex: none;
+  flex-grow: 0;
+  z-index: 3;
+}
+
+.mainball {
+  will-change: top, left;
+}
+
+/* Disable browser scrollbars and margin */
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+/* Scrollable container with snap */
+.main {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch; /* Enhances scrolling on iOS */
+}
+
+.section {
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+.main::-webkit-scrollbar {
+  display: none; /* Hide scrollbars */
+}

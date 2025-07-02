@@ -1,0 +1,136 @@
+.tech-section {
+  padding: 80px 5%;
+  background: radial-gradient(circle at top left, #0f0f1a, #0a0a12);
+  color: white;
+}
+
+.tech-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.tech-left {
+  flex: 1;
+  min-width: 320px;
+  max-width: 450px;
+}
+
+.tech-left h2 {
+  font-family: 'Sora';
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.tech-left p {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.tech-visual {
+  width: 100%;
+  max-width: 380px;
+  border-radius: 20px;
+}
+
+.tech-right {
+  flex: 2;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.tech-category {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  height: auto;      
+  flex-wrap: wrap;       
+}
+
+
+.tech-number {
+  font-size: 32px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.1);
+  min-width: 50px;
+}
+
+.tech-tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: flex-start;
+  padding: 0px;
+  gap: 4px;
+  width: 624px;
+  height: 76px;
+  overflow-x: scroll;
+}
+.tech-tags::-webkit-scrollbar {
+  display: none; 
+}
+
+.tag {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px 8px 12px;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(20, 21, 23, 0.1);
+  border-radius: 8px;
+}
+
+.tag {
+  background: rgba(255, 255, 255, 0.08);
+  color: white;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tag-icon {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+
+.tech-name h4{
+  text-align: start;
+  margin: 0;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;  
+  color: #FFFFFF;
+}
+.tech-name {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  width: 80%;
+  overflow-x: unset;   /* disable horizontal scroll */
+  height: auto;
+}
+
+
