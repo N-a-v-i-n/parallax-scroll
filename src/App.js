@@ -12,12 +12,67 @@ import "./App.css";
 import "./components/css/Navbar.css";
 import Navbar from "./Navbar";
 
-
-
 export default function App() {
+  const preloadImages = () => {
+    const imagePaths = [
+      // backgrounds
+      "/assets/backgrounds/base.png",
+      "/assets/backgrounds/sec0.png",
+      "/assets/backgrounds/sec1.png",
+      "/assets/backgrounds/AI.png",
+      "/assets/backgrounds/ai1.png",
+      "/assets/backgrounds/Arrow left.png",
+      "/assets/backgrounds/Arrow right.png",
+      "/assets/backgrounds/B2B & B2C Commerce Transformation.png",
+      "/assets/backgrounds/bi_quote.png",
+      "/assets/backgrounds/contact-illustration.png",
+      "/assets/backgrounds/ecommerce.png",
+      "/assets/backgrounds/fb.png",
+      "/assets/backgrounds/in.png",
+      "/assets/backgrounds/Innovative.png",
+      "/assets/backgrounds/insta.png",
+      "/assets/backgrounds/mail.png",
+      "/assets/backgrounds/MVP.png",
+      "/assets/backgrounds/mvp1.png",
+      "/assets/backgrounds/phone.png",
+      "/assets/backgrounds/SaaS.png",
+
+      // company logos
+      "/assets/backgrounds/company-logos/airflow.png",
+      "/assets/backgrounds/company-logos/campion.png",
+      "/assets/backgrounds/company-logos/chromezy-logo.png",
+      "/assets/backgrounds/company-logos/comall.png",
+      "/assets/backgrounds/company-logos/fonnia.png",
+      "/assets/backgrounds/company-logos/kiri.png",
+      "/assets/backgrounds/company-logos/masterstudy.png",
+      "/assets/backgrounds/company-logos/modernize.png",
+      "/assets/backgrounds/company-logos/orofill.png",
+
+      // success cards
+      "/success cards/Prototype - 4.png",
+      "/success cards/success1.png",
+      "/success cards/success2.png",
+      "/success cards/success3.png",
+      "/success cards/success4.png",
+      "/success cards/success5.png",
+
+      // root assets
+      "/Glob.png",
+      "/Main Ball.png",
+      "/Main Ball Blur.png",
+      "/sec0.1.png",
+      "/Triangle.png",
+    ];
+
+    imagePaths.forEach((path) => {
+      const img = new Image();
+      img.src = path;
+    });
+  };
   const [section, setSection] = useState(0);
 
   useEffect(() => {
+    preloadImages();
     const handleScroll = () => {
       const section1 = document.getElementById("section1");
       const top = section1.getBoundingClientRect().top;
