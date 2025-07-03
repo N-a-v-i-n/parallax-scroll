@@ -198,7 +198,7 @@ export default function Background() {
 
       {/* Triangle */}
       <motion.img
-        src="/triangle.png"
+        src="/tri.png"
         alt="triangle"
         className="triangle"
         animate={triangleControls}

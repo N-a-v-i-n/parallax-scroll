@@ -62,7 +62,7 @@ export default function App() {
       "/Main Ball.png",
       "/Main Ball Blur.png",
       "/sec0.1.png",
-      "/triangle.png",
+      "/tri.png",
     ];
 
     imagePaths.forEach((path) => {
