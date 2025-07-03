@@ -7,6 +7,8 @@ import Section4 from "./Section4";
 import Section5 from "./Section5";
 import Section6 from "./Section6";
 import Section7 from "./Section7";
+import Section8 from "./Section8";
+
 import Background from "./Background";
 import "./App.css";
 import "./components/css/Navbar.css";
@@ -61,7 +63,7 @@ export default function App() {
       "/Main Ball.png",
       "/Main Ball Blur.png",
       "/sec0.1.png",
-      "/Triangle.png",
+      "/triangle.png",
     ];
 
     imagePaths.forEach((path) => {
@@ -113,8 +115,11 @@ export default function App() {
       <div id="section6" style={{height: "100%"}}>
         <Section6 />
       </div>
-      <div id="section7" style={{height: "10%"}}>
+      {/* <div id="section7" style={{height: "10%"}}>
         <Section7 />
+      </div> */}
+      <div id="section8" style={{height: "10%"}}>
+        <Section8 />
       </div>
     </div>
   </>
